@@ -1,0 +1,36 @@
+
+.shadow {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    
+    /* 
+        horizontal offset, vertial offset, blur, color
+    */
+    box-shadow: 3px 3px 20px grey;
+
+    /* 
+        rounds the corners
+    */
+    border-radius: 16px;
+}
+
+/* 
+    Moves element vertically (gradually) when you hover
+*/
+.shadow:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s;
+}
+
+.instagram {
+    width: 100px;
+}
+
+/* 
+    Makes element slightly see-through (gradually) when you hover
+*/
+.instagram:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
